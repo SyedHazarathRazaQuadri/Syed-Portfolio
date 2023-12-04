@@ -10,7 +10,6 @@ function ExperienceCard(props) {
       <div className="experience-card-col experience-card-gap">
         <div
           className="experience-card experience-card-1"
-          style={{ backgroundColor: experience.color }}
         >
           <div className="experience-company-logo">
             <img

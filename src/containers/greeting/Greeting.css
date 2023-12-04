@@ -61,6 +61,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-left: 5rem;
+}
+@media (max-width: 768px) {
+  .greeting-image-div {
+    padding-left: 0 !important;
+  }
 }
 
 .greeting-hand-wave {

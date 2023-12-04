@@ -2,17 +2,15 @@ import React from "react";
 import { skills } from "../../portfolio";
 import { Fade } from "react-reveal";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
-import FullStackImg from "./FullStackImg";
+import FrontEndImg from "./FrontEndImg";
 import CloudInfraImg from "./CloudInfraImg";
 import "./Skills.css";
-// import DesignImg from "./DesignImg";
 
 function GetSkillSvg(props) {
-  if (props.fileName === "FullStackImg")
-    return <FullStackImg theme={props.theme} />;
+  if (props.fileName === "FrontEndImg")
+    return <FrontEndImg theme={props.theme} />;
   else if (props.fileName === "CloudInfraImg")
     return <CloudInfraImg theme={props.theme} />;
-  // return <DesignImg theme={props.theme} />;
 }
 
 function SkillSection(props) {
@@ -39,7 +37,7 @@ function SkillSection(props) {
                   <SoftwareSkill theme={theme} logos={skill.softwareSkills} />
                 </Fade>
                 <Fade right duration={2000}>
-                  <div style={{ textAlign: "center" }}>
+                  <div style={{ textAlign: "left" }}>
                     {skill.skills.map((skillSentence, index) => {
                       return (
                         <p

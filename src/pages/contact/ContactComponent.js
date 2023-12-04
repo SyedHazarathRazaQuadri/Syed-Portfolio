@@ -1,6 +1,4 @@
 import React from "react";
-import Header from "../../components/header/Header";
-import Footer from "../../components/footer/Footer";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import { Fade } from "react-reveal";
 import { contactPageData } from "../../portfolio.js";
@@ -13,17 +11,9 @@ export default function Contact(props) {
 
   return (
     <div className="contact-main">
-      <Header theme={theme} setTheme={props.setTheme} />
       <div className="basic-contact">
         <Fade bottom duration={1000} distance="40px">
           <div className="contact-heading-div">
-            <div className="contact-heading-img-div">
-              <img
-                className="profile-pic"
-                src={require(`../../assets/images/${ContactData["profile_image_path"]}`)}
-                alt=""
-              />
-            </div>
             <div className="contact-heading-text-div">
               <h1
                 className="contact-heading-text"
@@ -42,7 +32,6 @@ export default function Contact(props) {
           </div>
         </Fade>
       </div>
-      <Footer theme={props.theme} onToggle={props.onToggle} />
     </div>
   );
 }

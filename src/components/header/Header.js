@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Fade } from "react-reveal";
 import { NavLink, Link } from "react-router-dom";
 import { greeting, settings } from "../../portfolio.js";
-import { CgSun } from "react-icons/cg/";
+import { CgSun } from "react-icons/cg";
 import { HiMoon } from "react-icons/hi";
 import { style } from "glamor";
 import "./Header.css";
@@ -31,7 +31,7 @@ function Header(props) {
     },
   });
 
-  const link = settings.isSplash ? "/splash" : "home";
+  // const link = settings.isSplash ? "splas" : "home";
 
   const [currTheme, setCurrTheme] = useState(props.theme);
 
@@ -48,14 +48,14 @@ function Header(props) {
   }
 
   const icon =
-    props.theme.name === "dark" ? (
-      <HiMoon
+    props.theme.name === "light" ? (
+      <CgSun
         strokeWidth={1}
         size={20}
         color={props.theme.name === "light" ? "#FFFFFF" : "#A7A7A7"}
       />
     ) : (
-      <CgSun
+      <HiMoon
         strokeWidth={1}
         size={20}
         color={props.theme.name === "light" ? "#FFFFFF" : "#A7A7A7"}
@@ -72,76 +72,16 @@ function Header(props) {
         }`}
       >
         <header className="header">
-          <NavLink to={link} tag={Link} className="logo">
+          <NavLink to="javascript:void(0)" tag="javascript:void(0)" className="logo">
             <span style={{ color: theme.text }}></span>
             <span className="logo-name" style={{ color: theme.text }}>
               {greeting.logo_name}
             </span>
             <span style={{ color: theme.text }}></span>
           </NavLink>
-          <input className="menu-btn" type="checkbox" id="menu-btn" />
-          <label className="menu-icon" htmlFor="menu-btn">
-            <span className="navicon"></span>
-          </label>
-          <ul className="menu">
-            <li className="homei-li">
-              <NavLink
-                className={({ isActive }) =>
-                  isActive ? "current-link" : "homei"
-                }
-                to="/home"
-                tag={Link}
-                style={{ color: theme.text }}
-              >
-                Home
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                className={({ isActive }) => (isActive ? "current-link" : "ec")}
-                to="/education"
-                tag={Link}
-                style={{ color: theme.text }}
-              >
-                Education
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                className={({ isActive }) => (isActive ? "current-link" : "xp")}
-                to="/experience"
-                tag={Link}
-                style={{ color: theme.text }}
-              >
-                Experience
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                className={({ isActive }) =>
-                  isActive ? "current-link" : "projects"
-                }
-                to="/projects"
-                tag={Link}
-                style={{ color: theme.text }}
-              >
-                Projects
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                className={({ isActive }) => (isActive ? "current-link" : "cr")}
-                to="/contact"
-                tag={Link}
-                style={{ color: theme.text }}
-              >
-                Contact
-              </NavLink>
-            </li>
             <button {...styles} onClick={changeTheme}>
               {icon}
             </button>
-          </ul>
         </header>
       </div>
     </Fade>

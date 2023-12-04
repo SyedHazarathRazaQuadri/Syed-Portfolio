@@ -1,6 +1,4 @@
 import React from "react";
-import Header from "../../components/header/Header";
-import Footer from "../../components/footer/Footer";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import ProjectsImg from "./ProjectsImg";
 import { Fade } from "react-reveal";
@@ -8,7 +6,7 @@ import { projectsHeader, projects } from "../../portfolio.js";
 import { style } from "glamor";
 import "./Projects.css";
 
-function Projects(props) {
+function HomeProjects(props) {
   const theme = props.theme;
 
   const styles = style({
@@ -20,7 +18,6 @@ function Projects(props) {
 
   return (
     <div className="projects-main">
-      <Header theme={theme} setTheme={props.setTheme} />
       <div className="basic-projects">
         <Fade bottom duration={2000} distance="40px">
           <div className="projects-heading-div">
@@ -51,21 +48,8 @@ function Projects(props) {
           );
         })}
       </div>
-      <br />
-      <br />
-      <br />
-      <a
-        {...styles}
-        className="general-btn more-projects-btn"
-        href="https://github.com/sumit-sharma-02/"
-      >
-        More Projects (Github)
-      </a>
-      <br />
-      <br />
-      <Footer theme={props.theme} onToggle={props.onToggle} />
     </div>
   );
 }
 
-export default Projects;
+export default HomeProjects;

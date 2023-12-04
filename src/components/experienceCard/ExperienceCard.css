@@ -51,6 +51,7 @@
 
 .experience-card-1:hover {
   border-radius: 13px;
+  background: #e3405f;
   z-index: 0;
   cursor: pointer;
 }
@@ -58,7 +59,7 @@
 .experience-card-body .pre-heading {
   font-size: 1.5rem;
   font-weight: 400;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .experience-card-body .meta {
@@ -151,7 +152,8 @@
 .experience-card-1 .meta {
   margin-bottom: 22px;
   margin: 0;
-  text-align: center;
+  text-align: left;
+  padding-left: 10px;
 }
 
 ul ol {
@@ -186,15 +188,20 @@ ul ol {
 @media only screen and (min-width: 768px) {
   .experience-card-1 {
     flex-direction: row;
+    background: white;
   }
 
   .experience-card-1 h3 {
     font-size: calc(100% + 1vw);
+    text-align: left;
+    padding-left: 10px;
   }
 
   .experience-card-1 .featured-image {
     height: auto;
     width: 300px;
+    padding: 10px;
+    border-radius: 50%;
   }
 
   .experience-card-1 .experience-company-logo {

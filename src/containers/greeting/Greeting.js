@@ -65,6 +65,7 @@ export default function Greeting(props) {
                   {...styles}
                   className="button"
                   target="_blank"
+                  download={greeting.resumeLink}
                   rel="noopener noreferrer"
                   href={greeting.resumeLink}
                 >
