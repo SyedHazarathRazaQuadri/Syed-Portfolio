@@ -180,28 +180,16 @@ const skills = {
 const degrees = {
   degrees: [
     {
-      title: "Amrita Vishwa Vidyapeetham, Coimbatore",
-      subtitle: "Masters in Computer Applications (MCA)",
-      logo_path: "amrita_logo.png",
-      alt_name: "Amrita University",
-      duration: "2021 - 2023",
+      title: "Rayalaseema University, Kurnool",
+      subtitle: "BCom Computer Applications",
+      logo_path: "rayalaseema-logo.png",
+      alt_name: "RU",
+      duration: "2016 - 2019",
       descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence, Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have done courses on Cloud Computing and Full Stack Development.",
+        "⚡ Excellence in Academics, Consistently achieving top grades, demonstrating a strong grasp of subjects and a commitment to academic excellence.",
+        "⚡ Active Participation and Leadership,Engaging all comupter application subjects in last year and Engaging actively in class discussions, projects."
       ],
-      website_link: "https://www.amrita.edu/",
-    },
-    {
-      title: "Guru Gobind Singh Indraprastha University, New Delhi",
-      subtitle: "Bachelors in Computer Applications (BCA)",
-      logo_path: "ggsipu_logo.png",
-      alt_name: "GGSIPU",
-      duration: "2018 - 2021",
-      descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        // "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development."
-      ],
-      website_link: "http://www.ipu.ac.in/",
+      website_link: "https://www.rayalaseemauniversity.ac.in/",
     },
   ],
 };
@@ -257,7 +245,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects make use of a vast variety of latest technology tools. My best experience is to create MERN and MEAN Stack Projects. Below are some of my projects.",
+    "My projects make use of a vast variety of latest technology tools. My best experience is to create React Js, Next JS, Shopify and Wix Internal Projects. Below are some of my projects.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -265,120 +253,10 @@ const projects = {
   data: [
     {
       id: "project-0",
-      name: "Crafty Commerce",
-      url: "https://crafty-commerce.vercel.app/",
-      repoUrl: "https://github.com/sumit-sharma-02/crafty-commerce",
+      name: "Product Information Managment",
+      url: "https://pim.una-brands.com/",
       description:
-        "Crafty Commerce is a frontend e-commerce web application that allows you to purchase different categories of product online. You can apply filters accordingly and find your favourite products in crafty commerce. You can pay with debit/credit cards and in just few click your product will be delivered.",
-      languages: [
-        {
-          name: "React",
-          iconifyClass: "logos:react",
-        },
-        {
-          name: "Redux",
-          iconifyClass: "logos:redux",
-        },
-        {
-          name: "Express",
-          iconifyClass: "simple-icons:express",
-        },
-        {
-          name: "Nodejs",
-          iconifyClass: "logos:nodejs",
-        },
-        {
-          name: "MongoDB",
-          iconifyClass: "vscode-icons:file-type-mongo",
-        },
-        {
-          name: "Stripe",
-          iconifyClass: "logos:stripe",
-        },
-        {
-          name: "Tailwind",
-          iconifyClass: "vscode-icons:file-type-tailwind",
-        },
-        {
-          name: "Cloudinary",
-          iconifyClass: "logos:cloudinary-icon",
-        },
-        {
-          name: "Framer Motion",
-          iconifyClass: "logos:framer",
-        },
-      ],
-    },
-    {
-      id: "project-1",
-      name: "Tikkaway",
-      url: "https://restaurant-app-bceb0.web.app/",
-      repoUrl: "https://github.com/sumit-sharma-02/tikkaway",
-      description:
-        "Tikkaway is a full stack restaurant web application that allows you to order food online. It has wide variety of categories on the menu like Chicken, Curry, Rice, Fish, Fruits, Icecreams, Soft Drinks etc.",
-      languages: [
-        {
-          name: "React",
-          iconifyClass: "logos:react",
-        },
-        {
-          name: "Redux",
-          iconifyClass: "logos:redux",
-        },
-        {
-          name: "Firebase",
-          iconifyClass: "logos:firebase",
-        },
-        {
-          name: "Tailwind",
-          iconifyClass: "vscode-icons:file-type-tailwind",
-        },
-        {
-          name: "Framer Motion",
-          iconifyClass: "logos:framer",
-        },
-      ],
-    },
-    {
-      id: "project-2",
-      name: "MEAN Agency",
-      url: "",
-      repoUrl: "https://github.com/sumit-sharma-02/mean-agency",
-      description:
-        "Mean Agency is a full stack service provider web application that allows you to provide services to other companies.",
-      languages: [
-        {
-          name: "Angular",
-          iconifyClass: "logos:angular-icon",
-        },
-        {
-          name: "Express",
-          iconifyClass: "simple-icons:express",
-        },
-        {
-          name: "Nodejs",
-          iconifyClass: "logos:nodejs",
-        },
-        {
-          name: "MongoDB",
-          iconifyClass: "vscode-icons:file-type-mongo",
-        },
-        {
-          name: "Bootstrap",
-          iconifyClass: "logos:bootstrap",
-        },
-        {
-          name: "Handlebars",
-          iconifyClass: "vscode-icons:file-type-handlebars",
-        },
-      ],
-    },
-    {
-      id: "project-3",
-      name: "Countdown Timer",
-      url: "https://countdown-timer-sumit-sharma-02.vercel.app/",
-      repoUrl: "https://github.com/sumit-sharma-02/countdown-timer",
-      description: "A Simple React App for countdown to new year using hooks.",
+        "PIM is a frontend internal web application that allows you to all brands products information online. You can manage Products details including prices you can chagne in this web application and you can apply filters accordingly and find your favourite products.",
       languages: [
         {
           name: "HTML5",
@@ -393,17 +271,160 @@ const projects = {
           iconifyClass: "logos-javascript",
         },
         {
-          name: "React",
-          iconifyClass: "logos-react",
+          name: "jQuery",
+          iconifyClass: "simple-icons:jquery",
         },
+        {
+          name: "React JS",
+          iconifyClass: "logos:react",
+        },
+        {
+          name: "Next JS",
+          iconifyClass: "logos:redux",
+        },
+        {
+          name: "Tailwind CSS",
+          iconifyClass: "vscode-icons:file-type-tailwind",
+        }
+      ],
+    },
+    {
+      id: "project-1",
+      name: "Order Managment System",
+      url: "https://oms.una-brands.com/",
+      description:
+        "OMS is a frontend internal web application that allows you to all brands products orders information online. You can manage Product Orders details including prices you can chagne in this web application and you can apply filters accordingly and find your Orders including Sales reports.",
+      languages: [
+        {
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos:javascript",
+        },
+        {
+          name: "jQuery",
+          iconifyClass: "simple-icons:jquery",
+        },
+        {
+          name: "React JS",
+          iconifyClass: "logos:react",
+        },
+        {
+          name: "Next JS",
+          iconifyClass: "logos:redux",
+        },
+        {
+          name: "Tailwind CSS",
+          iconifyClass: "vscode-icons:file-type-tailwind",
+        }
+      ],
+    },
+    {
+      id: "project-2",
+      name: "Theia Super App",
+      url: "https://theia.una-brands.com/",
+      description:
+        "Theia Super App is a frontend internal web application that allows you to all PIM and OMS products, Amazon brands products details and orders information online. You can manage Product Orders details including prices you can chagne in this web application and Orders including Sales reports and many things information etc.",
+      languages: [
+        {
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos:javascript",
+        },
+        {
+          name: "jQuery",
+          iconifyClass: "simple-icons:jquery",
+        },
+        {
+          name: "React JS",
+          iconifyClass: "logos:react",
+        },
+        {
+          name: "Next JS",
+          iconifyClass: "logos:redux",
+        },
+        {
+          name: "Tailwind CSS",
+          iconifyClass: "vscode-icons:file-type-tailwind",
+        }
+      ],
+    },
+    {
+      id: "project-3",
+      name: "Supermama Labs",
+      url: "https://www.supermamalab.com/",
+      description:
+        "A eCommerce Website built on Shopify Platform inlucing html,css,javascript,jquery and shopify where all MOM's related products will be sold",
+      languages: [
+        {
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos:javascript",
+        },
+        {
+          name: "jQuery",
+          iconifyClass: "simple-icons:jquery",
+        },
+        {
+          name: "Shopify",
+          iconifyClass: "simple-icons:shopify",
+        }
       ],
     },
     {
       id: "project-4",
-      name: "Portfolio",
+      name: "Hendeer",
+      url: "https://www.hendeer.com/",
+      description:
+        "A eCommerce Website built on Shopify Platform inlucing html,css,javascript,jquery and shopify where all Rugs and Pillows related products will be sold",
+      languages: [
+        {
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos:javascript",
+        },
+        {
+          name: "jQuery",
+          iconifyClass: "simple-icons:jquery",
+        },
+        {
+          name: "Shopify",
+          iconifyClass: "simple-icons:shopify",
+        }
+      ],
+    },
+    {
+      id: "project-5",
+      name: "My Portfolio",
       url: "",
-      repoUrl: "https://github.com/sumit-sharma-02/sumit-portfolio",
-      description: "You are watching it right now 😉.",
+      description: "You are watching it right now 😉. It's all about my professional details, my experiance, my higher education, my projects and my contact info etc...",
       languages: [
         {
           name: "React",
@@ -432,27 +453,95 @@ const projects = {
       ],
     },
     {
-      id: "project-5",
-      name: "SpaceX Capsules",
-      url: "https://spacex-capsules.vercel.app/",
-      repoUrl: "https://github.com/sumit-sharma-02/spacex-capsules",
+      id: "project-6",
+      name: "Nihon Skin",
+      url: "https://nihonskin.com/",
       description:
-        "A React application which shows you the filtered spaceX capsules data.",
+        "A eCommerce Website built on Shopify Platform inlucing html,css,javascript,jquery and shopify where all Cosmetic products and related products will be sold",
       languages: [
         {
-          name: "React",
-          iconifyClass: "logos:react",
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
         },
         {
-          name: "Redux",
-          iconifyClass: "logos:redux",
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
         },
         {
-          name: "Tailwind",
-          iconifyClass: "vscode-icons:file-type-tailwind",
+          name: "JavaScript",
+          iconifyClass: "logos:javascript",
         },
+        {
+          name: "jQuery",
+          iconifyClass: "simple-icons:jquery",
+        },
+        {
+          name: "Shopify",
+          iconifyClass: "simple-icons:shopify",
+        }
       ],
     },
+    {
+      id: "project-7",
+      name: "Heavenluxe SG & AU",
+      url: "https://heavenluxe.com/",
+      description:
+        "A eCommerce Website built on Shopify Platform inlucing html,css,javascript,jquery and shopify where all Bedsheet and pillows products will be sold",
+      languages: [
+        {
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos:javascript",
+        },
+        {
+          name: "jQuery",
+          iconifyClass: "simple-icons:jquery",
+        },
+        {
+          name: "Shopify",
+          iconifyClass: "simple-icons:shopify",
+        }
+      ],
+    },
+    {
+      id: "project-8",
+      name: "Una Brands",
+      url: "https://www.una-brands.com/",
+      description:
+        "Una Brands own Website built on Wix Platform inlucing html,css,javascript,jquery and wix where all information is available about the company and it's brands",
+      languages: [
+        {
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos:javascript",
+        },
+        {
+          name: "jQuery",
+          iconifyClass: "simple-icons:jquery",
+        },
+        {
+          name: "Wix",
+          iconifyClass: "simple-icons:wix",
+          style: {
+            color: "black",
+          },
+        }
+      ],
+    }
   ],
 };
 

@@ -36,7 +36,7 @@ export default function ProjectCard({ repo, theme }) {
           {...styles}
           key={repo.id}
           className="project-card-div"
-          style={{ backgroundColor: theme.themeColor }}
+          style={{ backgroundColor: theme.themeColor, border: "1px solid white" }}
         >
           <div className="project-card-overlay"></div>
           <div className="repo-name-div">

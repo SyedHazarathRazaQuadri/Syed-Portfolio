@@ -72,13 +72,13 @@ function Header(props) {
         }`}
       >
         <header className="header">
-          <NavLink to="javascript:void(0)" tag="javascript:void(0)" className="logo">
+          <div className="logo">
             <span style={{ color: theme.text }}></span>
             <span className="logo-name" style={{ color: theme.text }}>
               {greeting.logo_name}
             </span>
             <span style={{ color: theme.text }}></span>
-          </NavLink>
+          </div>
             <button {...styles} onClick={changeTheme}>
               {icon}
             </button>

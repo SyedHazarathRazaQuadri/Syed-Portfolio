@@ -18,15 +18,11 @@ function HomeEducation(props) {
               <h1 className="heading-text" style={{ color: theme.text }}>
                 Education
               </h1>
-              <h3 className="heading-sub-text" style={{ color: theme.text }}>
-                Basic Qualification and Certifications
-              </h3>
               <p
                 className="experience-header-detail-text subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                I actively participate in tech-related activities. Below are
-                some of my major certifications.
+                I actively participate in tech-related activities. And Engaging Computer Subjects in last Year.
               </p>
             </div>
           </div>
